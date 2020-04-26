@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+body > p{
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: Georgia, serif;
+}
+
+#nav{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 1em;
+	margin-bottom: 0;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+#contact{
+	float: left;
+	margin-left: 100px;
+	font-family: Georgia, serif;
+}
+
+article{
+	border: 0.5px solid #5bb85c;
+	margin-top: 3em;
+	min-height: 3em;
+	max-width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 2em;
+	background-color: #eeeeee;
+}
+
+
+h1{
+	text-align: center;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+
+}
+
+#subtitle{
+	text-align: center;
+	font-size: .85em;
+	overflow: auto;
+	color: #C0C0C0;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+
+
+a{
+	text-align: center;
+	text-decoration: none;
+}
+a:hover{
+	color: #BACBFF ;
+	font-weight: bold;
+}
+
+.alert{
+	text-align: center;
+}
+
+.title{
+	color: #8bacc2; /*#5F9EA0; */
+	font-size: 50px;
+}
+
+#button-container{
+	min-height: 3em;
+	text-align: center;
+	padding-top: 2em;
+}
+
+#flashcard-container{
+	font-family: Georgia, serif;
+	font-size: 1em;
+
+}
+.question{
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #8bacc2; /* #009688; */
+}
+
+#previous-card{
+	font-weight: bold;
+}
+
+#next-card{
+	font-weight: bold;
+	
+}
+#flip-card{
+	font-weight: bold;
+}
+
+#flashcard-answer{
+	display: none;
+	color: #585656;
+}
