@@ -36,9 +36,10 @@
 // variables.less
 // $theme-primary: #F05F40;
 // $theme-primary: #525454; #97adc2; 
-$theme-primary:#b5a586 ;
+//$theme-primary:#b5a586 ; 
+$theme-primary: #a0570b75;
 $theme-dark: #222;
-
+$theme-light: #8bacc2;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",

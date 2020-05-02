@@ -159,7 +159,8 @@ header {
     @include background-cover;
     background-position: center;
     // background-image: url('../img/header.jpg');
-    background-image: url('../img/10.jpg');
+    // background-image: url('../img/10.jpg');
+    background-image: url('../img/bg2.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -246,9 +247,9 @@ header {
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
+        opacity: 80%;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba( $theme-light, .5 );
         position: absolute;
         bottom: 0;
         text-align: center;
