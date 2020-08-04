@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-    border-color: #ffffffa; //$theme-primary;
+    border-color: #ffffff; //$theme-primary;
     border-width: 0.5px;
     max-width: 70px;
 }
@@ -77,23 +77,24 @@ aside {
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
-    .navbar-header .navbar-brand {
+    .navbar-header .navbar-brand {  //nav name title : "Dechen Ch..."
+        font-size: 25px;
         color: $theme-primary;
         @include sans-serif-font;
         font-weight: 400;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
         }
     }
-    .nav {
+    .nav {                              //nav bar options: "About, Resume, Projects..."
         > li {
             > a,
             > a:focus {
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 font-weight: 400;
-                font-size: 13px;
+                font-size: 16px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -115,7 +116,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(#6c6467, .7);
             &:hover,
             &:focus {
                 color: white;
@@ -123,7 +124,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(#6c6467, .7);
             &:hover {
                 color: white;
             }
@@ -151,7 +152,6 @@ aside {
 }
 
 // Homepage Header
-
 header {
     position: relative;
     width: 100%;
@@ -159,8 +159,9 @@ header {
     @include background-cover;
     background-position: center;
     // background-image: url('../img/header.jpg');
-    background-image: url('../img/bgbg.jpg');
-    // background-image: url('../img/bg3.jpg');
+    // background-image: url('../img/bgbg.jpg');
+    // background-image: url('../img/10.jpg');
+    background-color: #DDD8D8;
     text-align: center;
     color: white;
     .header-content {
@@ -332,11 +333,19 @@ header {
     padding: 15px 30px;
 }
 
+
 // Contact
 #contact .fa {
     color: $theme-dark;
-    font-size: 4em;
+    // font-size: 4em;
 }
+
+.fa fa-twitter:hover {
+    color: #bc4676;
+}
+
+
+
 
 // Extras
 // -- Highlight Color Customization
