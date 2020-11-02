@@ -55,7 +55,8 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(#4c3b31, .7);
+    //color: rgba(white, .7);
 }
 
 section {
@@ -70,8 +71,37 @@ aside {
     padding: 0;
 }
 
-// Navigation
+//About Me
+.me{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #d7cfca;
+    border: 1px solid #b5b7bd;
+    border-radius: 100px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
 
+//new code
+.img {
+    width: 50%;
+    height: auto;
+    margin: 2px;
+    max-width: 400px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+// Navigation
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -116,7 +146,8 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(#6c6467, .7);
+            color: rgba(#2c1607, .7);
+            //color: rgba(#6c6467, .7);
             &:hover,
             &:focus {
                 color: white;
@@ -124,7 +155,8 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(#6c6467, .7);
+            color: rgba(#2c1607, .7);
+            //color: rgba(#6c6467, .7);
             &:hover {
                 color: white;
             }
@@ -161,7 +193,8 @@ header {
     // background-image: url('../img/header.jpg');
     // background-image: url('../img/bgbg.jpg');
     // background-image: url('../img/10.jpg');
-    background-color: #DDD8D8;
+    //background-color: #d7cfca; // #DDD8D8;
+    background-color: #d7cfca;
     text-align: center;
     color: white;
     .header-content {
@@ -189,7 +222,8 @@ header {
             }
             p {
                 font-weight: 400;
-                color:  #6c6467; //#4c54aeb3; //#4c54ae; //#4367ec94
+                //"Front End Enthusiast" Section
+                color: #2c1607; // #6c6467; //#4c54aeb3; //#4c54ae; //#4367ec94
                 letter-spacing: 8px;
                 word-spacing: 10px;
                 // color: rgba(white, .7);
@@ -225,7 +259,6 @@ header {
 }
 
 // Sections
-
 .section-heading {
     margin-top: 0;
 }
