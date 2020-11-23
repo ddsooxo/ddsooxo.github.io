@@ -35,14 +35,12 @@
 
 // variables.less
 // $theme-primary: #F05F40;
-// $theme-primary: #525454; #97adc2; 
-// $theme-primary:#b5a586 ; 
+// $theme-primary: #525454; #97adc2;
+// $theme-primary:#b5a586 ;
 
-$theme-primary:  #2c1607de; // #2c1607;// #424242; 
+$theme-primary: #edeef1; //about me section
+//#2c1607de; // #2c1607;// #424242;
 $theme-dark: #222;
-$theme-light: #888888;  // #244ca0;
+$theme-light: #b8b3b0; // #244ca0;
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "mixins",
-        "base"
-;
+@import "mixins", "base";
