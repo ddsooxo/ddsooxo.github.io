@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/img/favicons/site.webmanifest">
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/img/favicons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/img/favicons/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/img/favicons/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/img/favicons/site.webmanifest" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165009249-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-165009249-1');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-165009249-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-165009249-1");
+  </script>
 
+  {% include head.html %}
 
-{% include head.html %}
-
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include call-to-action.html %}
-  {% include services.html %}
-  {% include portfolio.html %}
-  {% include design.html %}
-  {% include contact.html %}
-  {% include scripts.html %}
-</body>
-
+  <body id="page-top">
+    {% include nav.html %} {% include header.html %} {% include
+    call-to-action.html %} {% include services.html %} {% include portfolio.html
+    %} {% include design.html %} {% include contact.html %} {% include
+    scripts.html %}
+  </body>
 </html>
