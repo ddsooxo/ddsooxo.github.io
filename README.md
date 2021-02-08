@@ -1,4 +1,4 @@
-# Welcome to my portfolio's documentation
+# Welcome to my portfolio documentation:
 - My website is still in progress.
 - I plan to add and update some projects.
 ***
