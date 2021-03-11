@@ -1,10 +1,11 @@
-# Welcome to my portfolio documentation:
-- My website is still in progress.
-- I plan to add and update some projects.
+# ddsooxo.github.io
+- Portfolio website in progress
+- I plan to update landing page, update overall design and add/update projects.
 ***
 
-For the theme, I used **Creative Theme for Jekyll**
-- Please refer to template information below:
+Theme: **Creative Theme for Jekyll**
+
+_please refer to template information below:_
 > A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.\
 The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
