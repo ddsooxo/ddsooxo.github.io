@@ -1,10 +1,5 @@
 # ddsooxo.github.io
 
-- Portfolio website currently in progress.
-- Planning to update projects section and overall website design.
-
----
-
 Theme I used for my portfolio: **Creative Theme for Jekyll**.
 
 _Please refer to template information below._
